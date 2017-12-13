@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "columnify": "^1.5.4",
+    "promise": "^8.0.1",
+    "superagent": "^3.8.2",
+    "superagent-promise": "^1.1.0"
+  },
+  "name": "fedex_invoice_tracking",
+  "version": "1.0.0",
+  "description": "Script to read invoice csv files and retrieve the tracking information for the shipments.",
+  "main": "index.js",
+  "keywords": [
+    "fedex",
+    "csv",
+    "tracking",
+    "refund"
+  ],
+  "author": "Matt Pham",
+  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpham/Fedex-Invoice-Tracking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattpham/Fedex-Invoice-Tracking/issues"
+  },
+  "homepage": "https://github.com/mattpham/Fedex-Invoice-Tracking#readme"
+}
